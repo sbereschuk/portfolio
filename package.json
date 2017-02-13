@@ -1,0 +1,33 @@
+{
+  "name": "Portfolio",
+  "title": "Portfolio",
+  "version": "1.0.0",
+  "homepage": "http://studio100.com.ua",
+  "author": "Serhey Bereschuk",
+  "license": {
+    "type": "MIT",
+    "url": "http://studio100.com.ua"
+  },
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^2.0.0-rc.3",
+    "less": "^2.7.2",
+    "less-loader": "^2.2.3",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "resolve-url-loader": "^1.6.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.2.1"
+  },
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sbereschuk/portfolio.git"
+  }
+}
